@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* app/globals.css */
 @import "tailwindcss";
 
@@ -27,3 +28,28 @@ body {
   color: var(--foreground);
   /* LIGNE SUPPRIMÉE : font-family: Arial, Helvetica, sans-serif; */
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+>>>>>>> f358716a82d56e0ba0b8321dac18cc0c479edc88
